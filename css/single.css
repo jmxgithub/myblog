@@ -1,0 +1,104 @@
+#header{
+	min-height: 200px;
+}
+/************header结束*************/
+
+/************single开始*************/
+#single{
+	/*height: 1000px;*/
+	padding: 80px 0;
+}
+#single > img{
+	width: 100%;
+}
+#single p{
+	color: #555;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px 0;
+}
+#single .comment{
+	width: 1074px;
+	height: 150px;
+	padding: 32px;
+	border: 1px solid #E6E6E6;
+	margin: 48px 0;
+}
+#single .comment h5{
+	line-height: 18px;
+    font-size: 20px;
+    color: #999;
+	margin: 10px 0;
+}
+#single .comment h5 a{
+	color: #555;
+}
+#single .comment h5 a:hover{
+	text-decoration: underline;
+}
+#single .comment img{
+	float: left;
+	height: 107px;
+	margin-right: 20px;
+}
+#single span{
+	float: left;
+	color: #555;
+	margin: 15px 0;
+}
+#single .single-area{
+	margin-top: 80px;
+}
+#single .single-area h2{
+	color: #555;
+	font-size: 32px;
+}
+#single form p{
+	position: relative;
+}
+#single form label{
+	display: block;
+	color: #999;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+#single form span{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	color: #f00;
+	font-size: 10px;
+}
+#single form input{
+	padding: 15px 20px;
+    width: 75%;
+    color: #999;
+    font-size: 13px;
+    border: none;
+    background: #fff;
+    outline: none;
+    display: block;
+}
+#single form textarea{
+	padding: 15px 30px;
+    width: 90%;
+    color: #999;
+    font-size: 13px;
+    outline: none;
+    height: 200px;
+    display: block;
+    border: none;
+    background: #fff;
+}
+#single form input[type="submit"]{
+	/*padding: 15px 20px;*/
+	width: 172px;
+    color: #fff;
+    background: #02D7FD;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/************single结束*************/

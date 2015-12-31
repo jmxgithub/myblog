@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+ 	background: #f3f3f3;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+
+/************header开始*************/
+
+#nav{
+  height: 192px;
+}
+#nav .nav-icon{
+  width: 52px;
+  height: 52px;
+  background: url(../img/nav-icon.png) no-repeat;
+  position: absolute;
+  top: 64px;
+  right: 126px;
+  cursor: pointer;
+}
+#nav .nav-menu-box{
+  width: 100%;
+  height: 192px;
+  position: absolute;
+  left: 0;
+  top: -192px;
+}
+#nav .nav-menu-bg{
+  height: 100%;
+  background: rgb(82, 87, 89);
+  opacity: 0.39;
+  filter: alpha(opacity=39);
+}
+#nav .nav-menu{
+  width: 694px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  margin-left: -347px;
+  top: 50%;
+  margin-top: -16px;
+}
+#nav .nav-menu li{
+  float: left;
+}
+#nav .nav-menu li a{
+  display: block;
+  margin: 8px 24px;
+  color: #fff;
+}
+#nav .nav-close-icon{
+  width: 35px;
+  height: 35px;
+  background: url(../img/close2.png) no-repeat 0px 0px;
+  position: absolute;
+  right: 136px;
+  top: 50%;
+  margin-top: -18px;
+  cursor: pointer;
+}
+#header{
+  min-height: 830px;
+  overflow: hidden;
+  position: relative;
+  /*background: url(../img/bg2.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+#header .header-bg{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+#header .portrait{
+	width: 396px;
+	height: 396px;
+	margin: 0 auto;
+}
+#header h1{
+	margin: 20px 0;
+	font-family: 'Cookie', cursive;
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+}
+#header p{
+	color: #fff;
+	font-size: 26px;
+	text-align: center;
+}
+#header .header-button{
+	width: 335px;
+	height: 57px;
+	margin: 20px auto;
+}
+#header .header-button li{
+	float: left;
+	margin: 0 8px;
+}
+#header .header-button li a{
+	padding: 16px 30px;
+  color: #FFF;
+  font-weight: 100;
+  font-size: 1.4em;
+  display: block;
+  background: #5eb8d0;
+  border-radius: 10px;
+}
+
+/************header结束*************/
+
+
+/************footer开始*************/
+#footer{
+  /*height: 28px;*/
+  /*padding: 29px 0;*/
+}
+#footer .wrap{
+  border-top: 1px solid #DBDBDB;
+}
+#footer .clearfix{
+  height: 28px;
+  padding: 29px 0;
+}
+#footer p{
+  line-height: 28px;
+  float: left;
+  color: #8e8e8e;
+  font-size: 16px;
+}
+#footer ul{
+  float: right;
+}
+#footer li{
+  float: left;
+  width: 22px;
+  height: 22px;
+}
+#footer .face{
+  background: url(../img/social-icons.png) 0 0;
+}
+#footer .face:hover{
+  background: url(../img/social-icons.png) 0 -22px;
+}
+#footer .twit{
+  background: url(../img/social-icons.png) -22px 0;
+}
+#footer .twit:hover{
+  background: url(../img/social-icons.png) -22px -22px;
+}
+#footer .dri{
+  background: url(../img/social-icons.png) -50px 0;
+}
+#footer .dri:hover{
+  background: url(../img/social-icons.png) -50px -22px;
+}
+#footer .tech{
+  background: url(../img/social-icons.png) -78px 0;
+}
+#footer .tech:hover{
+  background: url(../img/social-icons.png) -78px -22px;
+}
+#footer .to-top{
+  display: none;
+  width: 44px;
+  height: 44px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+  background: url(../img/to-top1.png)no-repeat;
+}
+/************fotter结束*************/
+
+.wrap{
+	width: 1170px;
+	margin: 0 auto;
+}
